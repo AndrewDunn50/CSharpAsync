@@ -10,7 +10,7 @@ namespace Tasks1
     {
         static void Main(string[] args)
         {
-            var sample = new TaskSample();
+            var sample = new SimpleTaskSample();
 
             for (int i = 0; i < 10; i++)
             {

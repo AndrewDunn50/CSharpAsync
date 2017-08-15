@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Tasks1
 {
-    class TaskSample
+    class SimpleTaskSample
     {
         private int _taskCounter = 0;
         private object lockObject = new object();
