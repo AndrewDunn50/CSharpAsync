@@ -27,7 +27,7 @@ namespace Tasks1
             //Continuation - fire task after 'task' is finished
             var continueTask = task.ContinueWith((antecedent) => //antecendent - task that fired this task (parent)
             {
-                Console.WriteLine($"{Environment.NewLine}Task {antecedent.Result} Complete");
+                Console.WriteLine($"{Environment.NewLine}Simple Sample: Task {antecedent.Result} Complete");
             }); 
         }
 

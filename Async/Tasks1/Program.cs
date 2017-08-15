@@ -10,12 +10,18 @@ namespace Tasks1
     {
         static void Main(string[] args)
         {
-            var sample = new SimpleTaskSample();
+            var simple = new SimpleTaskSample();
 
             for (int i = 0; i < 10; i++)
             {
-                sample.SimpleTask();
+                simple.SimpleTask();
             }
+
+            var wait = new WaitTaskSample();
+            wait.WaitSample();
+
+            var child = new ChildTaskSample();
+            child.ChildSample();
 
             Console.Read();
         }
