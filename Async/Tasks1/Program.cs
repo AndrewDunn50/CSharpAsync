@@ -20,6 +20,9 @@ namespace Tasks1
             var wait = new WaitTaskSample();
             wait.WaitSample();
 
+            var result = new ReturnResultSample();
+            result.ReturnSample();
+
             var child = new ChildTaskSample();
             child.ChildSample();
 
