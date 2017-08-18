@@ -11,6 +11,9 @@ namespace Tasks1
         static void Main(string[] args)
         {
 
+            var cancel = new CancelTaskSample();
+            cancel.CancelSample();
+
             var exception = new ExceptionHandlingSample();
             exception.ExceptionSample1();
             exception.ExceptionSample2();
